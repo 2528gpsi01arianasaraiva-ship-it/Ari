@@ -10,20 +10,27 @@
             font-family: Arial, sans-serif;
             padding: 40px;
         }
-        h1{
+
+        h1, h3 {
             text-align: center;
             color: #8b0a50;
-            margin: 5px;
         }
+
         .container {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 30px;
-            margin-top: 20px;
-            flex-wrap: wrap;
-            margin-bottom: 20px;
+            margin-top: 40px;
+            flex-wrap: wrap; /* adapta a ecrãs pequenos */
         }
+
+        img {
+            width: 200px;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+
         .poema {
             background-color: white;
             padding: 20px;
@@ -41,17 +48,18 @@
         #nome {
             color: #c21072;
         }
-        #gedeao{
-            color: black;
-            text-align: center;
-            margin-top: 0px;
-        }
     </style>
 </head>
+
 <body>
+
     <h1>Lágrima de Preta</h1>
-    <h3 id="gedeao">António Gedeão</h3>
+    <h3>António Gedeão</h3>
+
     <div class="container">
+        
+        <img src="antonio_gedeao.jpg" alt="António Gedeão">
+
         <div class="poema">
             Encontrei uma preta<br>
             que estava a chorar.<br>
